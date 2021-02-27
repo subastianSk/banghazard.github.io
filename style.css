@@ -1,0 +1,65 @@
+.jumbotron{
+    padding-top: 250px;
+    margin-top: 20px;
+    background-image: url('img/bg.jpg')
+    background-size: cover;
+    height: 700px;
+}
+
+.jumbotron img {
+
+}
+
+.jumbotron p {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.jumbotron h1 {
+    color: aliceblue;
+}
+
+.jumbotron hr {
+    border-color: #6ddccf;
+    width: 70px;
+    border-width: 3px;
+}
+
+.about {
+    margin-bottom: 50px;
+}
+
+.about h1 {
+    margin-bottom: 50px;
+}
+
+.about img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.porto {
+    padding-top: 50px;
+    width: 100%;
+    height: fit-content;
+    background-color: slategrey;
+}
+
+.card {
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+    background-color: #ffff;
+    margin-bottom: 50px;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img {
+    transform: scale(1.5);
+}
